@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 
-
+a{
+    color: black; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+  }
+  
 body{
     font-family: Arial, Helvetica, sans-serif;
     overflow-x: hidden; /* Hide horizontal scrollbar */
