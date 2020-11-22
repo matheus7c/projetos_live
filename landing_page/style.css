@@ -24,13 +24,19 @@ body{
 .JS{
     color: #EFD81D;
 }
+.telegram-color{
+    color: #2DA4D7;
+}
+.youtube-color{
+    color: #E1482D;
+}
+
 .pre-headline{
     height: 50vh;
     background-color: #04B2D9;
     display: flex;
     width: 100vw;
     justify-content: center;
-
     background-image: url('../images/bg.jpg');
     background-size: cover;
     background-position: bottom;
@@ -70,7 +76,7 @@ body{
 }
 .text-headline input{
     text-align: center;
-    color: white;
+    color: black;
     margin-top: 25px;
     font-size: 18px;
     
@@ -218,24 +224,34 @@ body{
 /* Página Obrigado */
 
 .pre-head{
-    background-color: rgba(212, 212, 212, 0.521);
+    background-color: rgba(212, 212, 212, 0.938);
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .head{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .head h1{
+    font-family: 'Lato', sans-serif;
     margin-top: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 24px;
+    text-transform: uppercase;
+}
+.head span{
+    color: #E1482D;
 }
 .head h2{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 16px;
     
 }
 
@@ -248,11 +264,11 @@ body{
 
 .pre-follow{
     width: 100vw;
-    background-color: red;
+    height: 30vh;
+    background-color: #c5c5c5;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 .follow{
@@ -271,4 +287,91 @@ body{
 }
 .follow p{
     font-size: 16px;
+}
+.follow button{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.telegram{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.youtube{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.youtube h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+.telegram h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.telegram h1, a{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.youtube h1, a{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.telegram button{
+    background-color: #2DA4D7;
+    border: 0;
+    border-radius: 7px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.youtube button{
+    background-color:#E1482D;
+    border:0;
+    border-radius: 7px;
+    width: 70%;
+    cursor: pointer;
+}
+
+/* Footer 2 */
+.pre-footer2{
+    width: 100vw;
+    background-color: #066d85;
+    padding-top: 20px;
+    height: 15vh;
+    display: flex;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.terms2{
+    display: flex;
+}
+
+.terms2 h4{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.terms2 h4:first-child{
+    border-right: 3px solid #850606;
+}
+.copyright2{
+    margin-bottom: 15px;
+    
 }
